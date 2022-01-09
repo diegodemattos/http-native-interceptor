@@ -1,0 +1,9 @@
+{
+  "/main": {
+    "target": "https://host.com.br",
+    "secure": false,
+    "pathRewrite": {
+      "^/main": ""
+    }
+  }
+}

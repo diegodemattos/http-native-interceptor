@@ -1,0 +1,7 @@
+{
+  "name": "http-native-interceptor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

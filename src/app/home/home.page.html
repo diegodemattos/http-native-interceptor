@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      HTTP NATIVE REQUEST WITH INTERCEPTORS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="content">
+    <div>
+      <ion-button (click)="doSimpleGet(1)">GET</ion-button>
+      <ion-button (click)="doSimpleGetWithError(1)">POST WITH ERROR</ion-button>
+      <ion-button (click)="doSimpleGetWithRefreshError(1)">POST WITH ERROR AND REFRESH TOKEN</ion-button>
+    </div>
+    <div>
+      <ion-button (click)="doSimpleGet(5)">GET 5</ion-button>
+      <ion-button (click)="doSimpleGetWithError(5)">POST WITH ERROR 5</ion-button>
+      <ion-button (click)="doSimpleGetWithRefreshError(5)">POST WITH ERROR AND REFRESH TOKEN 5</ion-button>
+    </div>
+  </div>
+</ion-content>u
